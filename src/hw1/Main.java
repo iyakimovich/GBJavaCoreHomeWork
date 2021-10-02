@@ -11,7 +11,8 @@ public class Main {
                 "Mark", 20,
                 "Kobe", 100);
 
-        Course course = new Course(15);
+        int[] courseObstacles = {15, 20, 10};
+        Course course = new Course(courseObstacles);
         course.doIt(myTeam);
 
         System.out.println("All Team results: ");
