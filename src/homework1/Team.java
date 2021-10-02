@@ -1,4 +1,4 @@
-package hw1;
+package homework1;
 
 public class Team {
     public static int MAX_TEAM_SIZE = 4;
